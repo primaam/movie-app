@@ -1,38 +1,95 @@
-.App {
+
+h1{
   text-align: center;
+  padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  /* text-align: center; */
+  height: 100vh;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.listlayout{
+  margin: auto;
+  width: 50%;
+  padding-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.tableheader{
+  border: 1px solid #dddddd;
+  text-align: left;
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .tableheader:th{
+  border: 1px solid #dddddd;
+} */
+
+.formlayout{
+  margin: auto;
+  width: 50%;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  padding-top: 20px;
 }
+
+.multiselect {
+  width: 200px;
+  max-height:  75px;
+  overflow-y:scroll; 
+  scrollbar-width: none;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+  
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.submitlayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.submit{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
+#medCheckboxes, #treatCheckboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#medCheckboxes label, #treatCheckboxes label {
+  display: block;
+}
+
+#medCheckboxes label:hover, #treatCheckboxes label:hover {
+  background-color: #1e90ff;
+}
+
+
