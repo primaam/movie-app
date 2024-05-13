@@ -2,7 +2,7 @@ export const MovieData = {
     page: 1,
     results: [
         {
-            adult: false,
+            adult: true,
             backdrop_path: "/fY3lD0jM5AoHJMunjGWqJ0hRteI.jpg",
             genre_ids: [878, 27, 28],
             id: 940721,

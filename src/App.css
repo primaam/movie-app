@@ -10,86 +10,39 @@ h1{
   width: 100vw;
 }
 
-.listlayout{
+.container{
   margin: auto;
-  width: 50%;
-  padding-top: 50px;
-}
-
-.table{
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.tableheader{
-  border: 1px solid #dddddd;
-  text-align: left;
-  height: 50px;
-}
-
-/* .tableheader:th{
-  border: 1px solid #dddddd;
-} */
-
-.formlayout{
-  margin: auto;
-  width: 50%;
-  border: 3px solid lightblue;
-  border-radius: 10px;
-  padding-top: 20px;
-}
-
-.multiselect {
-  width: 200px;
-  max-height:  75px;
-  overflow-y:scroll; 
-  scrollbar-width: none;
-}
-
-.selectBox {
-  position: relative;
-}
-
-.selectBox select {
-  width: 100%;
-  font-weight: bold;
-  
-}
-
-.overSelect {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.submitlayout {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.submit{
   width: 80%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.headerListContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bookmarkCell{
+  display: flex;
+  height: 100%; 
+  align-items:center;
+  justify-content: center;
+}
+
+.searchContainer{
+  width: 100%;
+  max-width: 300px;
   height: 30px;
   border-radius: 5px;
+  padding: 0px 10px 0px 10px;
 }
 
-
-#medCheckboxes, #treatCheckboxes {
-  display: none;
-  border: 1px #dadada solid;
-}
-
-#medCheckboxes label, #treatCheckboxes label {
-  display: block;
-}
-
-#medCheckboxes label:hover, #treatCheckboxes label:hover {
-  background-color: #1e90ff;
+.button{
+  width: 100%;
+  max-width: 300px;
 }
 
 
